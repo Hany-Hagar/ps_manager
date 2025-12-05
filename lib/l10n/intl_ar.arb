@@ -1,1 +1,78 @@
-{}
+{
+    "@@locale": "ar",
+
+    "appTitle": "مدير بلاي ستيشن",
+    "@appTitle": {
+        "description": "عنوان التطبيق"
+    },
+
+
+    
+    "onBoardingTitle1": "مرحبًا بك في مدير بلاي ستيشن",
+    "@onBoardingTitle1": {
+        "description": "عنوان الشاشة الأولى للتعريف بالتطبيق"
+    },
+    "onBoardingSubtitle1": "حل إدارة مقاهي بلاي ستيشن الكامل الخاص بك",
+    "@onBoardingSubtitle1": {
+        "description": "العنوان الفرعي للشاشة الأولى للتعريف بالتطبيق"
+    },
+    "onBoardingTitle2": "التحكم في الأجهزة والجلسات",
+    "@onBoardingTitle2": {
+        "description": "عنوان الشاشة الثانية للتعريف بالتطبيق"
+    },
+
+    "onBoardingSubtitle2": "راقب وأدر جميع الأجهزة في الوقت الحقيقي",
+    "@onBoardingSubtitle2": {
+        "description": "العنوان الفرعي للشاشة الثانية للتعريف بالتطبيق"
+    },
+    "onBoardingTitle3": "الدخل والمصروفات",
+    "@onBoardingTitle3": {
+        "description": "عنوان الشاشة الثالثة للتعريف بالتطبيق"
+    },
+    "onBoardingSubtitle3": "تتبع أموالك مع تحليلات مفصلة",
+    "@onBoardingSubtitle3": {
+        "description": "العنوان الفرعي للشاشة الثالثة للتعريف بالتطبيق"
+    },
+    "onBoardingTitle4": "التقارير والتنزيلات",
+    "@onBoardingTitle4": {
+        "description": "عنوان الشاشة الرابعة للتعريف بالتطبيق"
+    },
+    "onBoardingSubtitle4": "قم بإنشاء تقارير شاملة على الفور",
+    "@onBoardingSubtitle4": {
+        "description": "العنوان الفرعي للشاشة الرابعة للتعريف بالتطبيق"
+    },
+    "onBoardingTitle5": "الطعام والشراب",
+    "@onBoardingTitle5": {
+        "description": "عنوان الشاشة الخامسة للتعريف بالتطبيق"
+    },
+    "onBoardingSubtitle5": "قم بإدارة قائمة الطعام والطلبات في مقهاك بسلاسة",
+    "@onBoardingSubtitle5": {
+        "description": "العنوان الفرعي للشاشة الخامسة للتعريف بالتطبيق"
+    },
+    "onBoardingTitle6": "هل أنت مستعد للبدء؟",
+    "@onBoardingTitle6": {
+        "description": "عنوان الشاشة السادسة للتعريف بالتطبيق"
+    },
+    "onBoardingSubtitle6": "لنحدث ثورة في تجربة إدارة مقاهي بلاي ستيشن الخاصة بك!",
+    "@onBoardingSubtitle6": {
+        "description": "العنوان الفرعي للشاشة السادسة للتعريف بالتطبيق"
+    },
+    "backButton": "رجوع",
+    "@backButton": {
+        "description": "تسمية زر الرجوع"
+    },
+    "nextButton": "التالي",
+    "@nextButton": {
+        "description": "تسمية زر التالي"
+    },
+    "skipButton": "تخطي",
+    "@skipButton": {
+        "description": "تسمية زر التخطي"
+    },
+    "getStartedButton": "ابدأ الآن",
+    "@getStartedButton": {
+        "description": "تسمية زر ابدأ الآن"
+    }
+
+    
+}

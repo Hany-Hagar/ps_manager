@@ -1,1 +1,80 @@
-{}
+{
+    "@@locale": "en",
+
+    "appTitle": "PS Manager",
+    "@appTitle": {
+        "description": "The title of the application"
+    },
+
+
+    
+
+    
+    "onBoardingTitle1": "Welcome to PS Manager",
+    "@onBoardingTitle1": {
+        "description": "Title for the first onBoarding screen"
+    },
+    "onBoardingSubtitle1": "Your complete PlayStation cafe management solution",
+    "@onBoardingSubtitle1": {
+        "description": "Subtitle for the first onBoarding screen"
+    },
+    "onBoardingTitle2": "Device & Session Control",
+    "@onBoardingTitle2": {
+        "description": "Title for the second onBoarding screen"
+    },
+
+    "onBoardingSubtitle2": "Monitor and manage all consoles in real-time",
+    "@onBoardingSubtitle2": {
+        "description": "Subtitle for the second onBoarding screen"
+    },
+    "onBoardingTitle3": "Income & Expenses",
+    "@onBoardingTitle3": {
+        "description": "Title for the third onBoarding screen"
+    },
+    "onBoardingSubtitle3": "Track your finances with detailed analytics",
+    "@onBoardingSubtitle3": {
+        "description": "Subtitle for the third onBoarding screen"
+    },
+    "onBoardingTitle4": "Reports & Downloads",
+    "@onBoardingTitle4": {
+        "description": "Title for the fourth onBoarding screen"
+    },
+    "onBoardingSubtitle4": "Generate comprehensive reports instantly",
+    "@onBoardingSubtitle4": {
+        "description": "Subtitle for the fourth onBoarding screen"
+    },
+    "onBoardingTitle5": "Food & Drinks",
+    "@onBoardingTitle5": {
+        "description": "Title for the fifth onBoarding screen"
+    },
+    "onBoardingSubtitle5": "Manage your cafe menu and orders seamlessly",
+    "@onBoardingSubtitle5": {
+        "description": "Subtitle for the fifth onBoarding screen"
+    },
+    "onBoardingTitle6": "Ready to Start?",
+    "@onBoardingTitle6": {
+        "description": "Title for the sixth onBoarding screen"
+    },
+    "onBoardingSubtitle6": "Let's revolutionize your PS cafe management experience!",
+    "@onBoardingSubtitle6": {
+        "description": "Subtitle for the sixth onBoarding screen"
+    },
+    "backButton": "Back",
+    "@backButton": {
+        "description": "Label for the back button"
+    },
+    "nextButton": "Next",
+    "@nextButton": {
+        "description": "Label for the next button"
+    },
+    "skipButton": "Skip",
+    "@skipButton": {
+        "description": "Label for the skip button"
+    },
+    "getStartedButton": "Get Started",
+    "@getStartedButton": {
+        "description": "Label for the get started button"
+    }
+
+    
+}

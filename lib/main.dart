@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       splitScreenMode: true,
       builder: (_, child) {
         return MaterialApp(
-          title: 'Daftarni دفترني',
+          title: 'PS Manager',
           themeMode: ThemeMode.system,
           theme: AppTheme.lightTheme,
           darkTheme: AppTheme.darkTheme,

@@ -4,7 +4,9 @@ import '../../manager/splash_cubit.dart';
 import '../../manager/splash_states.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../data/repo/splash_repo_impl.dart';
+import '../../../../../core/utils/navigator_methods.dart';
 import '../../../../../core/services/service_locator.dart';
+import '../../../../onBoarding/presentation/pages/on_boarding_view.dart';
 
 class SplashView extends StatelessWidget {
   const SplashView({super.key});
@@ -18,7 +20,7 @@ class SplashView extends StatelessWidget {
       child: BlocListener<SplashCubit, SplashState>(
         listener: (context, state) {
           if (state is FirstOpenSplashState) {
-            // NavTo.pushReplacement(context: context, nextPage: OnBoardingView());
+            NavTo.pushReplacement(context: context, nextPage: OnBoardingView());
           }
           if (state is SuccessSplashState) {
             // NavTo.pushReplacement(context: context, nextPage: LayoutView());

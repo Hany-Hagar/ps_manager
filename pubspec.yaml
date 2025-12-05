@@ -113,5 +113,15 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/fonts/
+    - assets/lotties/
+  fonts:
+    - family: Lateef
+      fonts:
+        - asset: assets/fonts/Lateef/Lateef-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Lateef/Lateef-Bold.ttf
+          weight: 700
+          
 flutter_intl:
   enabled: true

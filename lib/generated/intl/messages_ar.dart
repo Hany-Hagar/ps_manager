@@ -21,5 +21,35 @@ class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'ar';
 
   final messages = _notInlinedMessages(_notInlinedMessages);
-  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{};
+  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "appTitle": MessageLookupByLibrary.simpleMessage("مدير بلاي ستيشن"),
+        "backButton": MessageLookupByLibrary.simpleMessage("رجوع"),
+        "getStartedButton": MessageLookupByLibrary.simpleMessage("ابدأ الآن"),
+        "nextButton": MessageLookupByLibrary.simpleMessage("التالي"),
+        "onBoardingSubtitle1": MessageLookupByLibrary.simpleMessage(
+            "حل إدارة مقاهي بلاي ستيشن الكامل الخاص بك"),
+        "onBoardingSubtitle2": MessageLookupByLibrary.simpleMessage(
+            "راقب وأدر جميع الأجهزة في الوقت الحقيقي"),
+        "onBoardingSubtitle3": MessageLookupByLibrary.simpleMessage(
+            "تتبع أموالك مع تحليلات مفصلة"),
+        "onBoardingSubtitle4": MessageLookupByLibrary.simpleMessage(
+            "قم بإنشاء تقارير شاملة على الفور"),
+        "onBoardingSubtitle5": MessageLookupByLibrary.simpleMessage(
+            "قم بإدارة قائمة الطعام والطلبات في مقهاك بسلاسة"),
+        "onBoardingSubtitle6": MessageLookupByLibrary.simpleMessage(
+            "لنحدث ثورة في تجربة إدارة مقاهي بلاي ستيشن الخاصة بك!"),
+        "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
+            "مرحبًا بك في مدير بلاي ستيشن"),
+        "onBoardingTitle2":
+            MessageLookupByLibrary.simpleMessage("التحكم في الأجهزة والجلسات"),
+        "onBoardingTitle3":
+            MessageLookupByLibrary.simpleMessage("الدخل والمصروفات"),
+        "onBoardingTitle4":
+            MessageLookupByLibrary.simpleMessage("التقارير والتنزيلات"),
+        "onBoardingTitle5":
+            MessageLookupByLibrary.simpleMessage("الطعام والشراب"),
+        "onBoardingTitle6":
+            MessageLookupByLibrary.simpleMessage("هل أنت مستعد للبدء؟"),
+        "skipButton": MessageLookupByLibrary.simpleMessage("تخطي")
+      };
 }

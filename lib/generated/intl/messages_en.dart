@@ -21,5 +21,35 @@ class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'en';
 
   final messages = _notInlinedMessages(_notInlinedMessages);
-  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{};
+  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "appTitle": MessageLookupByLibrary.simpleMessage("PS Manager"),
+        "backButton": MessageLookupByLibrary.simpleMessage("Back"),
+        "getStartedButton": MessageLookupByLibrary.simpleMessage("Get Started"),
+        "nextButton": MessageLookupByLibrary.simpleMessage("Next"),
+        "onBoardingSubtitle1": MessageLookupByLibrary.simpleMessage(
+            "Your complete PlayStation cafe management solution"),
+        "onBoardingSubtitle2": MessageLookupByLibrary.simpleMessage(
+            "Monitor and manage all consoles in real-time"),
+        "onBoardingSubtitle3": MessageLookupByLibrary.simpleMessage(
+            "Track your finances with detailed analytics"),
+        "onBoardingSubtitle4": MessageLookupByLibrary.simpleMessage(
+            "Generate comprehensive reports instantly"),
+        "onBoardingSubtitle5": MessageLookupByLibrary.simpleMessage(
+            "Manage your cafe menu and orders seamlessly"),
+        "onBoardingSubtitle6": MessageLookupByLibrary.simpleMessage(
+            "Let\'s revolutionize your PS cafe management experience!"),
+        "onBoardingTitle1":
+            MessageLookupByLibrary.simpleMessage("Welcome to PS Manager"),
+        "onBoardingTitle2":
+            MessageLookupByLibrary.simpleMessage("Device & Session Control"),
+        "onBoardingTitle3":
+            MessageLookupByLibrary.simpleMessage("Income & Expenses"),
+        "onBoardingTitle4":
+            MessageLookupByLibrary.simpleMessage("Reports & Downloads"),
+        "onBoardingTitle5":
+            MessageLookupByLibrary.simpleMessage("Food & Drinks"),
+        "onBoardingTitle6":
+            MessageLookupByLibrary.simpleMessage("Ready to Start?"),
+        "skipButton": MessageLookupByLibrary.simpleMessage("Skip")
+      };
 }
