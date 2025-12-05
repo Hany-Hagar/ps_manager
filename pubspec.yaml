@@ -30,20 +30,43 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+  flutter_localizations:
+    sdk: flutter
   cupertino_icons: ^1.0.8
+ 
+  # BLoC state management
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.1
+  
+  # UI glassmorphism helper
+  glass: ^2.0.0
+
+  # Service locator
+  get_it: ^9.0.5
+
+  # Local storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+# Functional programming helpers
+  dartz: ^0.10.1
+  lottie: ^3.3.1
+  flutter_screenutil: ^5.6.0
+  smooth_page_indicator: ^1.1.0
+  # Skeleton loading placeholders
+  skeletonizer: ^1.4.3
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   rename: ^3.1.0
+  build_runner: ^2.4.6
   flutter_lints: ^5.0.0
+  hive_generator: ^2.0.0
   flutter_native_splash: ^2.4.6
   flutter_launcher_icons: ^0.14.4
-
 
 flutter_native_splash:
   color: "#0a0e15"
@@ -58,8 +81,6 @@ flutter_native_splash:
     image: assets/images/appLogo.png
 
   web_image_mode: center
-
-  
 
 flutter_launcher_icons:
   android: "launcher_icon"
@@ -92,5 +113,5 @@ flutter:
 
   assets:
     - assets/images/
-
-
+flutter_intl:
+  enabled: true
