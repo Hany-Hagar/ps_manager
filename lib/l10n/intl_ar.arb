@@ -72,6 +72,73 @@
     "getStartedButton": "ابدأ الآن",
     "@getStartedButton": {
         "description": "تسمية زر ابدأ الآن"
+    },
+
+
+
+    "homeDataTitle": "نظرة عامة على البيانات",
+    "@homeDataTitle": {
+        "description": "عنوان نظرة عامة على البيانات"
+    },
+    "homeDataTitle1": "الأجهزة النشطة",
+    "@homeDataTitle1": {
+        "description": "عنوان بيانات الأجهزة النشطة"
+    },
+    "homeDataTitle2": "الأجهزة المتاحة",
+    "@homeDataTitle2": {
+        "description": "عنوان بيانات الأجهزة المتاحة"
+    },
+    "homeDataTitle3": "دخل الأجهزة اليومية",
+    "@homeDataTitle3": {
+        "description": "عنوان بيانات دخل الأجهزة اليومية"
+    },
+    "homeDataTitle4": "مبيعات المنتجات اليومية",
+    "@homeDataTitle4": {
+        "description": "عنوان بيانات مبيعات المنتجات اليومية"
+    },
+    "devices": "الأجهزة",
+    "@devices": {
+        "description": "عنوان قسم الأجهزة"
+    },
+    "rooms": "الغرف",
+    "@rooms": {
+        "description": "تسمية لقسم الغرف"
+    },
+    "available": "متاح",
+    "@available": {
+        "description": "تسمية لحالة المتاح"
+    },
+    "playing": "قيد اللعب",
+    "@playing": {
+        "description": "تسمية لحالة قيد اللعب"
+    },
+    "maintenance": "الصيانة",
+    "@maintenance": {
+        "description": "تسمية لحالة الصيانة"
+    },
+    "players": "لاعبين",
+    "@players": {
+        "description": "تسمية للاعبين"
+    },
+    "noPlayers": "لا يوجد لاعبين",
+    "@noPlayers": {
+        "description": "تسمية لعدم وجود لاعبين"
+    },
+    "start": "ابدأ",
+    "@start": {
+        "description": "Label for start button"
+    },
+    "pause": "توقف",
+    "@pause": {
+        "description": "Label for pause button"
+    },
+    "end": "إنهاء",
+    "@end": {
+        "description": "Label for end button"
+    },
+    "addOrder": "أضف طلب",
+    "@addOrder": {
+        "description": "Label for add order button"
     }
 
     

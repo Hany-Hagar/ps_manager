@@ -74,6 +74,73 @@
     "getStartedButton": "Get Started",
     "@getStartedButton": {
         "description": "Label for the get started button"
+    },
+    
+
+
+    "homeDataTitle": "Data Overview",
+    "@homeDataTitle": {
+        "description": "Title for the home data overview section"
+    },
+    "homeDataTitle1": "Active Stations",
+    "@homeDataTitle1": {
+        "description": "Title for active stations data"
+    },
+    "homeDataTitle2": " Available Stations",
+    "@homeDataTitle2": {
+        "description": "Title for available stations data"
+    },
+    "homeDataTitle3": " Daily Device Income",
+    "@homeDataTitle3": {
+        "description": "Title for daily device income data"
+    },
+    "homeDataTitle4": " Daily Product Sales",
+    "@homeDataTitle4": {
+        "description": "Title for daily product sales data"
+    },
+    "devices": "Devices",
+    "@devices": {
+        "description": "Label for devices section"
+    },
+    "rooms": "Rooms",
+    "@rooms": {
+        "description": "Label for rooms section"
+    },
+    "available": "Available",
+    "@available": {
+        "description": "Label for available status"
+    },
+    "playing": "Playing",
+    "@playing": {
+        "description": "Label for playing status"
+    },
+    "maintenance": "Maintenance",
+    "@maintenance": {
+        "description": "Label for maintenance status"
+    },
+    "players": "Players",
+    "@players": {
+        "description": "Label for players"
+    },
+    "noPlayers": "No Players",
+    "@noPlayers": {
+        "description": "Label for no players"
+    },
+    "start": "Start",
+    "@start": {
+        "description": "Label for start button"
+    },
+    "pause": "Pause",
+    "@pause": {
+        "description": "Label for pause button"
+    },
+    "end": "End",
+    "@end": {
+        "description": "Label for end button"
+    },
+    "addOrder": "Add Order",
+    "@addOrder": {
+        "description": "Label for add order button"
     }
 
     

@@ -22,10 +22,25 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "addOrder": MessageLookupByLibrary.simpleMessage("Add Order"),
         "appTitle": MessageLookupByLibrary.simpleMessage("PS Manager"),
+        "available": MessageLookupByLibrary.simpleMessage("Available"),
         "backButton": MessageLookupByLibrary.simpleMessage("Back"),
+        "devices": MessageLookupByLibrary.simpleMessage("Devices"),
+        "end": MessageLookupByLibrary.simpleMessage("End"),
         "getStartedButton": MessageLookupByLibrary.simpleMessage("Get Started"),
+        "homeDataTitle": MessageLookupByLibrary.simpleMessage("Data Overview"),
+        "homeDataTitle1":
+            MessageLookupByLibrary.simpleMessage("Active Stations"),
+        "homeDataTitle2":
+            MessageLookupByLibrary.simpleMessage(" Available Stations"),
+        "homeDataTitle3":
+            MessageLookupByLibrary.simpleMessage(" Daily Device Income"),
+        "homeDataTitle4":
+            MessageLookupByLibrary.simpleMessage(" Daily Product Sales"),
+        "maintenance": MessageLookupByLibrary.simpleMessage("Maintenance"),
         "nextButton": MessageLookupByLibrary.simpleMessage("Next"),
+        "noPlayers": MessageLookupByLibrary.simpleMessage("No Players"),
         "onBoardingSubtitle1": MessageLookupByLibrary.simpleMessage(
             "Your complete PlayStation cafe management solution"),
         "onBoardingSubtitle2": MessageLookupByLibrary.simpleMessage(
@@ -50,6 +65,11 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Food & Drinks"),
         "onBoardingTitle6":
             MessageLookupByLibrary.simpleMessage("Ready to Start?"),
-        "skipButton": MessageLookupByLibrary.simpleMessage("Skip")
+        "pause": MessageLookupByLibrary.simpleMessage("Pause"),
+        "players": MessageLookupByLibrary.simpleMessage("Players"),
+        "playing": MessageLookupByLibrary.simpleMessage("Playing"),
+        "rooms": MessageLookupByLibrary.simpleMessage("Rooms"),
+        "skipButton": MessageLookupByLibrary.simpleMessage("Skip"),
+        "start": MessageLookupByLibrary.simpleMessage("Start")
       };
 }

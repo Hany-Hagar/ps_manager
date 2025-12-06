@@ -22,10 +22,26 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "addOrder": MessageLookupByLibrary.simpleMessage("أضف طلب"),
         "appTitle": MessageLookupByLibrary.simpleMessage("مدير بلاي ستيشن"),
+        "available": MessageLookupByLibrary.simpleMessage("متاح"),
         "backButton": MessageLookupByLibrary.simpleMessage("رجوع"),
+        "devices": MessageLookupByLibrary.simpleMessage("الأجهزة"),
+        "end": MessageLookupByLibrary.simpleMessage("إنهاء"),
         "getStartedButton": MessageLookupByLibrary.simpleMessage("ابدأ الآن"),
+        "homeDataTitle":
+            MessageLookupByLibrary.simpleMessage("نظرة عامة على البيانات"),
+        "homeDataTitle1":
+            MessageLookupByLibrary.simpleMessage("الأجهزة النشطة"),
+        "homeDataTitle2":
+            MessageLookupByLibrary.simpleMessage("الأجهزة المتاحة"),
+        "homeDataTitle3":
+            MessageLookupByLibrary.simpleMessage("دخل الأجهزة اليومية"),
+        "homeDataTitle4":
+            MessageLookupByLibrary.simpleMessage("مبيعات المنتجات اليومية"),
+        "maintenance": MessageLookupByLibrary.simpleMessage("الصيانة"),
         "nextButton": MessageLookupByLibrary.simpleMessage("التالي"),
+        "noPlayers": MessageLookupByLibrary.simpleMessage("لا يوجد لاعبين"),
         "onBoardingSubtitle1": MessageLookupByLibrary.simpleMessage(
             "حل إدارة مقاهي بلاي ستيشن الكامل الخاص بك"),
         "onBoardingSubtitle2": MessageLookupByLibrary.simpleMessage(
@@ -50,6 +66,11 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("الطعام والشراب"),
         "onBoardingTitle6":
             MessageLookupByLibrary.simpleMessage("هل أنت مستعد للبدء؟"),
-        "skipButton": MessageLookupByLibrary.simpleMessage("تخطي")
+        "pause": MessageLookupByLibrary.simpleMessage("توقف"),
+        "players": MessageLookupByLibrary.simpleMessage("لاعبين"),
+        "playing": MessageLookupByLibrary.simpleMessage("قيد اللعب"),
+        "rooms": MessageLookupByLibrary.simpleMessage("الغرف"),
+        "skipButton": MessageLookupByLibrary.simpleMessage("تخطي"),
+        "start": MessageLookupByLibrary.simpleMessage("ابدأ")
       };
 }

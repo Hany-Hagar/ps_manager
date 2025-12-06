@@ -219,6 +219,166 @@ class S {
       args: [],
     );
   }
+
+  /// `Data Overview`
+  String get homeDataTitle {
+    return Intl.message(
+      'Data Overview',
+      name: 'homeDataTitle',
+      desc: 'Title for the home data overview section',
+      args: [],
+    );
+  }
+
+  /// `Active Stations`
+  String get homeDataTitle1 {
+    return Intl.message(
+      'Active Stations',
+      name: 'homeDataTitle1',
+      desc: 'Title for active stations data',
+      args: [],
+    );
+  }
+
+  /// ` Available Stations`
+  String get homeDataTitle2 {
+    return Intl.message(
+      ' Available Stations',
+      name: 'homeDataTitle2',
+      desc: 'Title for available stations data',
+      args: [],
+    );
+  }
+
+  /// ` Daily Device Income`
+  String get homeDataTitle3 {
+    return Intl.message(
+      ' Daily Device Income',
+      name: 'homeDataTitle3',
+      desc: 'Title for daily device income data',
+      args: [],
+    );
+  }
+
+  /// ` Daily Product Sales`
+  String get homeDataTitle4 {
+    return Intl.message(
+      ' Daily Product Sales',
+      name: 'homeDataTitle4',
+      desc: 'Title for daily product sales data',
+      args: [],
+    );
+  }
+
+  /// `Devices`
+  String get devices {
+    return Intl.message(
+      'Devices',
+      name: 'devices',
+      desc: 'Label for devices section',
+      args: [],
+    );
+  }
+
+  /// `Rooms`
+  String get rooms {
+    return Intl.message(
+      'Rooms',
+      name: 'rooms',
+      desc: 'Label for rooms section',
+      args: [],
+    );
+  }
+
+  /// `Available`
+  String get available {
+    return Intl.message(
+      'Available',
+      name: 'available',
+      desc: 'Label for available status',
+      args: [],
+    );
+  }
+
+  /// `Playing`
+  String get playing {
+    return Intl.message(
+      'Playing',
+      name: 'playing',
+      desc: 'Label for playing status',
+      args: [],
+    );
+  }
+
+  /// `Maintenance`
+  String get maintenance {
+    return Intl.message(
+      'Maintenance',
+      name: 'maintenance',
+      desc: 'Label for maintenance status',
+      args: [],
+    );
+  }
+
+  /// `Players`
+  String get players {
+    return Intl.message(
+      'Players',
+      name: 'players',
+      desc: 'Label for players',
+      args: [],
+    );
+  }
+
+  /// `No Players`
+  String get noPlayers {
+    return Intl.message(
+      'No Players',
+      name: 'noPlayers',
+      desc: 'Label for no players',
+      args: [],
+    );
+  }
+
+  /// `Start`
+  String get start {
+    return Intl.message(
+      'Start',
+      name: 'start',
+      desc: 'Label for start button',
+      args: [],
+    );
+  }
+
+  /// `Pause`
+  String get pause {
+    return Intl.message(
+      'Pause',
+      name: 'pause',
+      desc: 'Label for pause button',
+      args: [],
+    );
+  }
+
+  /// `End`
+  String get end {
+    return Intl.message(
+      'End',
+      name: 'end',
+      desc: 'Label for end button',
+      args: [],
+    );
+  }
+
+  /// `Add Order`
+  String get addOrder {
+    return Intl.message(
+      'Add Order',
+      name: 'addOrder',
+      desc: 'Label for add order button',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
